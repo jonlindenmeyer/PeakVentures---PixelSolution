@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-StorageService-a2bdabc3-c9bb-4765-9c1b-dcf9d38a3f9f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KafkaFlow" Version="3.0.3" />
+    <PackageReference Include="KafkaFlow.Microsoft.DependencyInjection" Version="3.0.3" />
+    <PackageReference Include="KafkaFlow.Serializer.ProtobufNet" Version="3.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StorageService.Application\StorageService.Application.csproj" />
+    <ProjectReference Include="..\StorageService.Infrastructure\StorageService.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
