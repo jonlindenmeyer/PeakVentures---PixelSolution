@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1E2AC8D0-A586-41C6-A4E9-503437F25BBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C931A359-2501-4FD9-B20E-8B9BB95E4F53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService", "StorageService\StorageService.csproj", "{ED0CA229-28A6-40A7-B4B0-836B2E2A1346}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService.Application", "StorageService.Application\StorageService.Application.csproj", "{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService.Infrastructure", "StorageService.Infrastructure\StorageService.Infrastructure.csproj", "{627F8357-ABF4-4E69-A5AE-1D50EC821DFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageService.UnitTests", "..\tests\StorageService.UnitTests\StorageService.UnitTests.csproj", "{8FB81B98-39D4-4140-913C-9F1968EC4859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED0CA229-28A6-40A7-B4B0-836B2E2A1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0CA229-28A6-40A7-B4B0-836B2E2A1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0CA229-28A6-40A7-B4B0-836B2E2A1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0CA229-28A6-40A7-B4B0-836B2E2A1346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627F8357-ABF4-4E69-A5AE-1D50EC821DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F8357-ABF4-4E69-A5AE-1D50EC821DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F8357-ABF4-4E69-A5AE-1D50EC821DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F8357-ABF4-4E69-A5AE-1D50EC821DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB81B98-39D4-4140-913C-9F1968EC4859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB81B98-39D4-4140-913C-9F1968EC4859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB81B98-39D4-4140-913C-9F1968EC4859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB81B98-39D4-4140-913C-9F1968EC4859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED0CA229-28A6-40A7-B4B0-836B2E2A1346} = {C931A359-2501-4FD9-B20E-8B9BB95E4F53}
+		{162B0E4F-D3EC-47D3-896C-7F7F4E7BD3FD} = {C931A359-2501-4FD9-B20E-8B9BB95E4F53}
+		{627F8357-ABF4-4E69-A5AE-1D50EC821DFD} = {C931A359-2501-4FD9-B20E-8B9BB95E4F53}
+		{8FB81B98-39D4-4140-913C-9F1968EC4859} = {1E2AC8D0-A586-41C6-A4E9-503437F25BBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E2BFB4-10B7-4EC4-AAAC-D7BCD883C178}
+	EndGlobalSection
+EndGlobal
